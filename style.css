@@ -1,0 +1,14 @@
+*{padding: 0; margin: 0; font-family: arial;}
+label,input{display: block; width: 100%; line-height: 30px; height: 30px; outline: none;font-size: 13pt;}
+form{width: 330px; background-color: rgba(0,0,0,.2); padding: 20px; margin: 30px auto;}
+input[type="submit"]{margin-top: 10px; cursor: pointer}
+#esquerda{width: 35%; height: 500px; float: left}
+h2{text-align: center}
+#direita{width: 65%; height: 500px; float: left;}
+table{width: 90%; margin:30px auto; background-color: rgba(0,0,0,.2)}
+tr{line-height: 30px;}
+tr#titulo{font-weight: bold; background-color: rgba(0,0,0,.6); color: white}
+td{padding: 0px 5px;}
+a{background-color: white; color: black; padding: 5px; margin: 0 5px; text-decoration: none}
+.aviso{background: yellowgreen; width: 90%; height: 50px; margin: 30px auto 0px auto; text-align: center};
+h4{float: left; line-height: 50px;}

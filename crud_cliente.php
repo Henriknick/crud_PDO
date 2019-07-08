@@ -1,8 +1,8 @@
 <?php
 
 class crud_cliente {
-    //-----------PREPARA CONEXAO COM O BANCO---------------------
-    private $conn;
+    
+    private $conn;//-----------PREPARA CONEXAO COM O BANCO---------------------
     public function __construct() {
         try {
             $this->conn = new PDO("mysql:dbname=crud;host=localhost","root","");
@@ -61,7 +61,5 @@ class crud_cliente {
         $cmd->bindValue(":t", $telefone);
         $cmd->bindValue(":e", $email);
         $cmd->execute();
-        
-        
     }
 }
